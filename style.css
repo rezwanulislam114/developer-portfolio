@@ -1,0 +1,35 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1 {
+    font-size: 50px;
+}
+.orange-color {
+    color: orange;
+    font-size: 64px;
+}
+section {
+    display: flex;
+}
+.top-banner {
+    background: url(./images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img {
+    width: 80%;
+}
+.hireme-button {
+    text-decoration: none;
+    background: linear-gradient(90deg, orange, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 20px;
+    display: inline-block;
+}
